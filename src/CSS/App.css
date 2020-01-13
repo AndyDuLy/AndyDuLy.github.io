@@ -1,0 +1,67 @@
+/* =================== */
+/* CUSTOM FONT CLASSES */
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url('../Fonts/Raleway/Raleway-v4020-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../Fonts/ProximaNova/ProximaThin.otf');
+}
+
+.RalewayRegular { font-family: 'Raleway Regular', Times, serif; }
+.ProximaNova { font-family: 'Proxima Nova', Times, serif; }
+
+
+/* ================== */
+/* SCROLLBAR/OVERFLOW */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent; 
+}
+
+
+/* ==================================== */
+/* PADDING / SPACING ADJUSTMENT CLASSES */
+
+.topMinorPadding { padding-top: 30px; }
+.topPadding { padding-top: 60px; } 
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ============ */
+/* TEXT CLASSES */
+
+.emphasisText { color: #00FFFF }
+.primaryText { color: #FFFFFF }
+.subtext { font-size: 16px; }
+.hyperlinkDecor { text-decoration: none; }
+.projectLink:hover { 
+    color: #27d7fc; 
+    transition: 0.5s;
+}
+
+
+/* ======================= */
+/* CANVAS/BACKDROP CLASSES */
+
+.backgroundColor { background: #28292a; }
+
+.particleCanvas {
+    position:fixed !important;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
