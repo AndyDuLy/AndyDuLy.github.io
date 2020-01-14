@@ -21,7 +21,7 @@ export default function Landing() {
 					<ProjectEntry 
 						title="Blank React + Skeleton.css" 
 						premise="Boilerplate website skeleton to kickstart your site." 
-						link="https://github.com/AndyDuLy"
+						link="https://aduly-blankreact.netlify.com/"
 					/>
 					<ProjectEntry 
 						title="Typing Speed Game" 
