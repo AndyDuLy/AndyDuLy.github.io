@@ -36,9 +36,8 @@ export default function Landing() {
           <h6 className="primaryText ProximaNova">
             Proficient with React (Ionic, Material UI), JavaScript (ES6, TypeScript), 
             Python (Django/REST), Java, HTML, and CSS (Skeleton). 
-            Familiar with leveraging cloud solutions and infrastructure (AWS), 
-            entire SDLC, and a multitude of project management methodologies. 
-            Previously: {' '} 
+            Familiar with cloud solutions (AWS), SDLC, and 
+            multiple project management methodologies. Previously: {' '} 
 
             <TypedJS
               strings={[ 'AvocadoCore', 'Parkaze Inc.' ]}
