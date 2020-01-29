@@ -14,6 +14,11 @@ export default function Landing() {
 					</h4>
 
 					<ProjectEntry 
+						title="Spyfall" 
+						premise="Full-Stack web app spin-off of the popular card game. Built with React, Skeleton.css and Firebase." 
+						link="https://github.com/AndyDuLy/Spyfall"
+					/>
+					<ProjectEntry 
 						title="brittanyduly.ca" 
 						premise="Portfolio Website for Brittany Du Ly. Built with React/MUI." 
 						link="https://www.brittanyduly.ca"
