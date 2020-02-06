@@ -45,7 +45,9 @@ export default function Landing() {
               backSpeed={20}
               backDelay={2000}
               loop
-            /> 
+            /> <br/><br/>
+
+            One of MLH's Top 50 Hackers of 2020. Read my story <a className="hyperlinkDecor" target="_blank" rel="noopener noreferrer" href="https://top.mlh.io/2020/profiles/andy-du-ly"> here. </a>
           </h6>
         </div>
       </div>
