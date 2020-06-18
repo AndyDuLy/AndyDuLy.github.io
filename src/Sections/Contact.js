@@ -15,7 +15,7 @@ export default function Contact() {
       </div>
 
       <div className="row topMinorPadding">
-        <form name="contactForm" method="POST" data-netlify="true">
+        <form action="/" name="contactForm" method="POST" data-netlify="true">
           <div class="row">
             <div class="six columns">
               <label class="primaryText"> Full Name </label>
