@@ -19,19 +19,20 @@ export default function Contact() {
           <div class="row">
             <div class="six columns">
               <label class="primaryText"> Full Name </label>
-              <input class="u-full-width" type="text" placeholder="John Doe"/>
+              <input class="u-full-width" type="text" name="name" placeholder="John Doe"/>
             </div>
 
             <div class="six columns">
               <label class="primaryText"> Email </label>
-              <input class="u-full-width" type="email" placeholder="john.doe@email.com"/>
+              <input class="u-full-width" type="email" name="email" placeholder="john.doe@email.com"/>
             </div>
           </div>
 
           <label class="primaryText"> Message </label>
-          <textarea class="u-full-width" placeholder="Message"/>
+          <textarea class="u-full-width" name="message" placeholder="Message"/>
 
           <input class="button-primary" type="submit" value="Submit"/>
+          <input type="hidden" name="form-name" value="contact" />
         </form>
       </div>
 
