@@ -60,7 +60,7 @@ export default function Contact() {
       </div>
 
       <div className="row">
-        <p align="center" className="primaryText ProximaNova"> Made with <span className="projectLink"> React, Particle.js, and Skeleton.css </span> </p>
+        <p align="center" className="primaryText ProximaNova"> Made with ♥ &amp; <span className="projectLink"> React, Particle.js, and Skeleton.css </span> </p>
       </div>
     </div>
   );

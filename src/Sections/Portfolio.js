@@ -3,6 +3,13 @@ import ProjectEntry from '../Components/ProjectEntry';
 import '../CSS/App.css';
 import '../CSS/skeleton.css';
 
+const projects = [
+	[ "Real-Time Spyfall", "Popular Spyfall card game, recreated as a React web app, built on Firebase Real-Time Database and Hosting", "https://github.com/AndyDuLy/Spyfall" ],
+	[ "Daily Weather Cron", "Recurring weather SMS alerts with Twilio SMS, OpenWeatherMap, deployed on Google Cloud Functions with a Cloud Scheduler Cron Job", "https://github.com/AndyDuLy/Daily-Weather" ],
+	[ "brittanyduly.ca", "Portfolio Website for Brittany Du Ly. Built with React/MUI.", "https://www.brittanyduly.ca" ],
+	[ "Typing Speed Game", "Pure JavaScript DOM typing speed game.", "https://andyduly.github.io/Typing-Time-Crunch/" ],
+	[ "P.I.G Dice Game", "Pure JavaScript DOM P.I.G dice game.", "https://andyduly.github.io/Pig-Dice-Game/" ],
+];
 
 export default function Landing() {
   return (
@@ -13,31 +20,15 @@ export default function Landing() {
 						Projects
 					</h4>
 
-					<ProjectEntry 
-						title="Spyfall" 
-						premise="Full-Stack web app spin-off of the popular card game. Built with React, Skeleton.css and Firebase." 
-						link="https://github.com/AndyDuLy/Spyfall"
-					/>
-					<ProjectEntry 
-						title="brittanyduly.ca" 
-						premise="Portfolio Website for Brittany Du Ly. Built with React/MUI." 
-						link="https://www.brittanyduly.ca"
-					/>
-					<ProjectEntry 
-						title="Blank React + Skeleton.css" 
-						premise="Boilerplate website skeleton to kickstart your site." 
-						link="https://aduly-blankreact.netlify.com/"
-					/>
-					<ProjectEntry 
-						title="Typing Speed Game" 
-						premise="Pure JavaScript DOM typing speed game." 
-						link="https://andyduly.github.io/Typing-Time-Crunch/"
-					/>
-					<ProjectEntry 
-						title="P.I.G Dice Game" 
-						premise="Pure JavaScript DOM P.I.G dice game." 
-						link="https://andyduly.github.io/Pig-Dice-Game/"
-					/>
+					{projects.map((entry) => {
+						return (
+							<ProjectEntry
+								title={entry[0]}
+								premise={entry[1]}
+								link={entry[2]}
+							/>
+						)
+					})}
 				</div>
 				
 				<div className="six columns">

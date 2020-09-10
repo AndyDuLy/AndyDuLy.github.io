@@ -22,7 +22,7 @@ export default function Landing() {
               strings={[ 'Andy Du Ly' ]}
               typeSpeed={25}
               showCursor={false}
-            /> 
+            />
           </h1>
 
           <h3 className="primaryText RalewayRegular"> 
@@ -35,12 +35,12 @@ export default function Landing() {
 
           <h6 className="primaryText ProximaNova">
             Proficient with React (Ionic, Material UI), JavaScript (ES6, TypeScript), 
-            Python (Django/REST), Java, HTML, and CSS (Skeleton). 
-            Familiar with cloud solutions (AWS), SDLC, and 
+            Java, HTML, and CSS (Skeleton, Pure Grid/Flex). 
+            Familiar with cloud solutions (GCP), SDLC, and 
             multiple project management methodologies. Previously: {' '} 
 
             <TypedJS
-              strings={[ 'AvocadoCore', 'Parkaze Inc.' ]}
+              strings={[ 'Matrix Logistics, DHL Supply Chain', 'AvocadoCore', 'Parkaze Inc.' ]}
               typeSpeed={20}
               backSpeed={20}
               backDelay={2000}

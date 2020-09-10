@@ -10,14 +10,14 @@ export default function ParticleCanvas() {
       params = {{
         "particles": {
           "number": {
-            "value": 50,
+            "value": 40,
             "density": {
               "enable": true,
-              "value_area": 800
+              "value_area": 1000
             }
           },
           "color": {
-            "value": "#ffffff"
+            "value": "#4db8ff"
           },
           "shape": {
             "type": "circle",
